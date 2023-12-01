@@ -1,0 +1,32 @@
+INSERT INTO public."Registro" (
+    id, 
+    "ORIGEM", 
+    "CODESTAB", 
+    "DTCADASTRO", 
+    "NUMEROLOTE", 
+    "VERSAOSIST", 
+    "DTRECEBIM", 
+    "DIFDATA", 
+    "DTRECORIGA", 
+    "TPFUNCRESP", 
+    "TPDOCRESP", 
+    "DTDECLARAC", 
+    "STDNEPIDEM", 
+    "TPROBSON"
+)
+SELECT 
+    id, 
+    "ORIGEM", 
+    "CODESTAB", 
+    "DTCADASTRO", 
+    "NUMEROLOTE", 
+    "VERSAOSIST", 
+    "DTRECEBIM", 
+    "DIFDATA", 
+    "DTRECORIGA", 
+    "TPFUNCRESP", 
+    "TPDOCRESP", 
+    "DTDECLARAC", 
+    "STDNEPIDEM", 
+    "TPROBSON"
+FROM public."tabela_ETLSINASC.DNRES_RJ_2017_t";
