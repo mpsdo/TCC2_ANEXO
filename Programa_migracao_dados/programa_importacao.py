@@ -3,11 +3,11 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 # Correção da string de conexão
-username = 'postgres'  # Substitua 'postgres' pelo seu nome de usuário real, se for diferente
-password = 'marcos123'
-host = 'TccBaseEntrega.cslgd4metpfp.us-east-2.rds.amazonaws.com'
-port = 5432
-database = 'TccBaseEntrega'
+username = ''  # Substitua 'postgres' pelo seu nome de usuário real, se for diferente
+password = ''
+host = ''
+port = 
+database = ''
 
 db_url = f'postgresql://{username}:{password}@{host}:{port}/{database}'
 engine = create_engine(db_url)
