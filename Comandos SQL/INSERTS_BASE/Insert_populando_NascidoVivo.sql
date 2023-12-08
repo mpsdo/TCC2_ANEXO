@@ -1,4 +1,4 @@
-INSERT INTO public."NascidoVivo_not_otm" (
+INSERT INTO public."NascidoVivo" (
     ano_nasc, 
     "APGAR1", 
     "APGAR5", 
